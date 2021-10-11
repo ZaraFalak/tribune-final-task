@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.login_container {
+    top: 62px;
+    position: relative;
+    display: flex;
+}
+input {
+    padding: 7px;
+}
+.left_image {
+    height: 300px;
+    width: 400px;
+}
+.login_main_container {
+    display:flex;
+    height: 500px;
+    width: 500px;
+    margin-left: 850px;
+    margin-top: 170px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+
+}
+.input_container {
+    margin-top: 59px;
+    margin-left: 60px;
+    position: relative;
+}
+.input_username, .input_password {
+height: 40px;
+width: 340px;
+border-radius: 8px;
+
+}
+.login_button {
+    height: 40px;
+    width: 348px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1967D3;
+    color: white;
+    font-size: 16px;
+    font-weight:300;
+    cursor: pointer;
+
+}
+.center_text{
+    margin-top: 20px;
+    height: 30px;
+    width: 348px;
+    margin-bottom: 2px;
+}
+#forget_password {
+    margin-left: 70px;
+}
+
+
+.bottom_text {
+    margin-left: 50px;
+}
+.option_button {
+    height:40px;
+    width: 160px; 
+    border: blue 1.5px solid;
+    border-radius: 8px; 
+    background-color:white;
+    color:blue;
+    cursor: pointer;
+    &:hover {
+        background-color:rgb(238, 234, 234);;
+    }
+   
+    
+}
+.facebook_logo {
+    height: 16px;
+    width: 16px;
+
+}
+.option_button_google {
+    height:40px;
+    width: 160px; 
+    margin-left: 27px;
+    border: RED 1.5px solid;
+    border-radius: 8px;
+    background-color:white;
+    color: red;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(238, 234, 234);
+    }
+    
+}

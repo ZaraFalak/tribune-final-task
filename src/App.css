@@ -1,0 +1,17 @@
+  #jobs {
+    left: 223px;
+    border: 1px solid gray;
+    position: relative;
+    margin: 1px;
+    top: 153px;
+    width: 1046px;
+    border-radius: 4px;
+    padding-bottom: 20px;
+
+
+} 
+h1 {
+  position: relative;
+  left: 227px;
+  top: 133px;
+}

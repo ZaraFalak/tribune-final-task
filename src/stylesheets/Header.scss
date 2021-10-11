@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header_container {
+    display: flex;
+    height:4em;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    border-bottom: 1px solid #dee0e3;
+    z-index: 1000;
+    top: 0px;
+    
+}
+.button_container {
+    top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 1200px;
+    position: absolute;
+}
+.login_register, .jobs {
+    margin-right : 40px;
+    height: 35px;
+    width: 116px;
+    background-color:#1967d3 ;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    outline: 0;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: relative;
+    border: none;
+    font-size:15px;
+
+   
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+    
+    

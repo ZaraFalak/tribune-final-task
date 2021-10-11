@@ -1,0 +1,126 @@
+
+// .job_container {
+//     display: flex;
+//     // position: fixed;
+//     height: 113px;
+//     width: 65rem;
+//     margin: 5px;
+//     // margin-top: 4rem;
+//     // background-color:skyblue;
+//     border-radius: 12px;
+
+// //     .heading
+// // {
+// //     margin-bottom: 40px;
+// //     position: absolute;
+// // }
+// }
+
+.content {
+    width: 1000px;
+    margin: 0 20px;
+}
+
+.job {
+    display: flex;
+    height: 100px;
+    width: 65rem;
+    background-color: white;
+    position: relative;
+    border-radius:12px 12px 0px 0px;
+
+}
+.image_container {
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+}
+.image_1 {
+   
+    border-radius: 50% ;
+    height: 50px;
+    width: 50px;
+}
+.side_text {
+    height: 100px;
+    width: 58.3rem;
+    margin-left: 30px;
+    border-radius: 0px 12px 0px 0px;
+
+}
+h3 {
+    margin-top: 20px;
+}
+.details {
+    display: flex;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.bag_logo {
+    height: 20px;
+    width: 20px;
+    margin-right: 4px;
+}
+.location_logo {
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+
+}
+.clock_logo {
+    height: 15px;
+    width: 15px;
+    margin-left: 12px;
+    margin-right: 6px;
+
+}
+.money_logo {
+    height: 25px;
+    width: 25px;
+    margin-left: 12px;
+    margin-right: 6px;
+
+}
+.Full_time {
+    border-radius: 40px;
+    margin-left: 14px;
+    height: 20px;
+    width: 70px;
+    border: none;
+    background-color: #DDE9F9;
+    color: #1967d3;
+}
+.apply_job {
+    height: 40px;
+    width: 80px;
+    margin-left: 19rem;
+    margin-top: 2px;
+    border-radius: 6px;
+
+    background-color:#1967d3 ;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    outline: 0;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: relative;
+    border: none;
+    font-size:15px;
+
+   
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+}

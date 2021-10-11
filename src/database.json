@@ -1,0 +1,30 @@
+[
+    {
+        "id":"1",
+        "src":"https://e7.pngegg.com/pngimages/323/312/png-clipart-software-developer-computer-icons-mobile-app-development-web-developer-computer-software-fiber-internet-text-logo.png",
+        "title":"Software Engineer"
+    },
+
+    {
+        "id":"2",
+        "src":"https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/babel.png",
+        "title":"Backend Web Developer "
+
+    },
+
+    {
+        "id":"3",
+        "src":"https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/react.png",
+        "title":"Frontend Web Developer"
+
+    },
+
+    {   
+        "id":"4",
+        "src":"https://raw.githubusercontent.com/sachinverma53121/sachinverma53121/master/icons/vsc.png",
+        "title":"Cloud Engineer"
+
+    }
+
+   
+]
